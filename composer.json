@@ -1,0 +1,16 @@
+{
+    "name": "dbourgon/php-clean",
+    "description": "A clean invoicer",
+    "autoload": {
+        "psr-4": {
+            "Dbourgon\\Invoicer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Bourgon",
+            "email": "dbourgon.dev@gmail.com"
+        }
+    ],
+    "require": {}
+}

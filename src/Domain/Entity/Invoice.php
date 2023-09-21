@@ -11,6 +11,10 @@ class Invoice extends AbstractEntity
     protected InvoiceDate $date;
     protected Total $total;
 
+    public function __construct()
+    {
+    }
+
     /**
      * @return Order
      */
